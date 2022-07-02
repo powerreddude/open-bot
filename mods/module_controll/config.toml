@@ -1,0 +1,33 @@
+[prefix]
+prefix = "*" #should not contain spaces
+
+
+
+[commands]
+
+  [commands.list]
+    
+    command = ["list", "l"] # should not contain spaces 
+  
+    target = "commandList"
+
+    #dm_chats = true
+
+    # public_chats = true # defaults to true
+
+  [commands.pause]
+    
+    command = ["pause", "p"]
+
+    target = "commandPause"
+
+    #dm_chats = true # defaults to false 
+
+    #public_chats = true # defaults to true
+
+  [commands.reload]
+    
+    command = ["reload", "r"]
+
+    target = "commandReload"
+

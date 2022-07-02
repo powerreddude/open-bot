@@ -1,0 +1,34 @@
+[prefix]
+prefix = "~" #should not contain spaces
+
+
+
+[commands]
+
+  [commands.echo]
+    
+    command = ["echo", "e"] # should not contain spaces 
+  
+    target = "commandEcho"
+
+    #dm_chats = false
+
+    # public_chats = true # defaults to true
+
+    # thread_safe = false
+
+    # kwargs = false
+
+
+  [commands.hello]
+    
+    command = ["hello", "h"]
+
+    target = "commandHelloWorld"
+
+    dm_chats = true # defaults to false 
+
+    #public_chats = true # defaults to true
+
+    #thread_safe = true
+
